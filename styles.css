@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background: radial-gradient( #20033a 0%, #000000 100%);
+}
+h1{
+    font-size: 80px;      
+    color: white;
+    text-shadow: 5px 5px 25px #00CC99;
+}
+
+input{
+    font-size: 25px;  
+    opacity: .3;
+}
+
+img{
+    border: solid 10px black;   
+}
+
+button{
+    font-size: 25px;
+    background: radial-gradient( #20033a 0%, #000000 100%);
+    color: white;
+}
+
+p{
+    font-size: 45px; 
+    text-shadow: 1px 1px  #c5d5e0;
+    color: grey;
+}
+
+.JL{
+    width: 50%;   
+}
+
+.Evil{
+    width: 55%;   
+}
+
+.time{
+    width: 30%;   
+}
+
+.surprise{
+    font-size: 25px;
+    text-shadow: 0px 0px black;
+}
