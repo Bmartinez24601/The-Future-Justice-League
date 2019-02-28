@@ -1,4 +1,4 @@
-$("button").click(function() {
+$("button").one("click", (function() {
     var numTyped = $(".theYear").val();
     var numOfYears = numTyped-2019;
     $(".p").append("In "+ numOfYears +" years, ");
@@ -7,7 +7,7 @@ $("button").click(function() {
     var villainName = $(".theVillain").val();
     $(".p").append(villainName+".");
     $(".surprise").text("or wil he/she???😉 ");
-});
+}));
 
 
 
